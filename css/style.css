@@ -2,7 +2,7 @@
 
 --*/
 body{
-	background:#fff;
+	background:fff;
 	font-family: 'Exo', sans-serif;
 }
 body a{
@@ -1902,4 +1902,59 @@ ul.start li span,ul.start li a {
 	border-width: 0;
 	background-color: rgb(255, 153, 0);
 	margin: auto;
+}
+/* .top-banner img{
+	width: 360px;
+	padding-top:20px;
+	transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+}
+.top-banner1{
+	height: 220px;
+	width: 360px;
+	background-image: url(banner1-hover.png);
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+}
+.top-banner1:hover{
+	background-image: url(banner1.jpg);
+} */
+.top-banner-picture{
+	background-image: url(banner1.png);
+	margin-top:20px;
+	height: 220px;
+	width: 360px;
+	/* transition: 0.3s all;
+	-webkit-transition: 0.3s all; */
+	background-color: green;
+	cursor: pointer;
+}
+.top-banner-picture:hover{
+	background-image: url(banner1-hover.png);
+}
+.top-banner-picture2{
+	background-image: url(banner2.png);
+	margin-top:20px;
+	height: 220px;
+	width: 360px;
+	/* transition: 0.3s all;
+	-webkit-transition: 0.3s all; */
+	background-color: green;
+	cursor: pointer;
+}
+.top-banner-picture2:hover{
+	background-image: url(banner2-hover.png);
+}
+.top-banner-picture3{
+	background-image: url(banner3.png);
+	margin-top:20px;
+	height: 220px;
+	width: 360px;
+	/* transition: 0.3s all;
+	-webkit-transition: 0.3s all; */
+	background-color: green;
+	cursor: pointer;
+}
+.top-banner-picture3:hover{
+	background-image: url(banner3-hover.png);
 }

@@ -1,0 +1,46 @@
+.floatled{
+    position: fixed;
+    top:490px;
+    left:200px;
+    font-size: 12px;
+    font-family: Arial;
+    padding: 3px;
+}
+.floatled li{
+    list-style-type: none;
+    display: block;
+    width: 36px;
+    height: 33px;
+    margin-bottom: 6px;
+}
+.floatled-part{
+    height: 37px;
+    width: 37px;
+    background-color: rgb(98, 98, 98);
+    color: white;
+    border-width: 0;
+}
+.floatled-part img{
+    width: 100%;
+    height: 100%;
+}
+.active-red{
+    background-color: red;
+}
+.active-blue{
+    background-color: rgb(10, 166, 232);
+}
+.active-green{
+    background-color:rgb(100, 195, 51);
+}
+.publish{
+    background-color: rgb(255, 153, 0);
+    position: fixed;
+    top:580px;
+    right: 40px;
+    width: 55px;
+    height: 150px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: white;
+}

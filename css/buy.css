@@ -68,15 +68,21 @@
 	text-transform: uppercase;
 	letter-spacing: 4px;
 }
-.btn2:after {
+/* .btn2:after {
 	content: '';
 	position: absolute;
 	z-index: -1;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-}
+} */
 .btn2-1c:after {
+    content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
 	width: 0%;
 	height: 100%;
 	top: 0;
@@ -92,6 +98,8 @@
 .btn2-1c:active:after {
 	width: 100%;
 }
+
+
 .buttonDiv{
     margin-top:20px;
 } 
@@ -103,4 +111,8 @@
     background-color: white;
     margin: 20px;
     margin-bottom: 20px;
+}
+.picutre-big img{
+    height: 270px;
+    width: 350px;
 }

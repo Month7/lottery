@@ -8,7 +8,7 @@
 <!-- Custom Theme files -->
 <!--theme-style-->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
-<link href="css/秒杀.css" rel="stylesheet" type="text/css" media="all" />	
+<link id="size-stylesheet" href="css/浏览器兼容/秒杀/lg.css" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -76,8 +76,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 		</div>
     </div>
-    <div>
-        <img src="秒杀/top.png">
+    <div class="bg-top">
     </div>
     <div class="miaosha">
         <div class="time-container">
@@ -120,6 +119,56 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </ul>
         </div>
         <div class="list">
+            <div class="goods goods-first">
+                <div class="goods-img">
+                    <a href="#">
+                        <img src="促销产品/16/1.jpg">
+                    </a>
+                </div>
+                <div class="title">
+                    <div class="title-link">
+                        <a href="#">双11秒杀</a>
+                    </div>
+                </div>
+                <div class="goods-price">
+                    <table class="price-list">
+                        <tbody>
+                            <tr>
+                                <td class="nowPrice">
+                                    秒杀价:
+                                </td>
+                                <td>
+                                    市场价:
+                                </td>
+                                <td>
+                                    折扣:
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="money">￥</i>
+                                    <span class="sec-price">1.00</span>
+                                </td>
+                                <td class="original">
+                                    <i class="money">￥</i>
+                                    "538.00"
+                                </td>
+                                <td class="ratio">
+                                    0.0折
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="price-button">
+                    <a class="buy">立即秒杀</a>
+                    <a class="hd">
+                        <span class="name">绿速康</span>
+                        <span class="look">查看更多优惠>></span>
+                        <i class="hd-arrow"></i>
+                    </a>
+                </div>
+            </div>
             <div class="goods">
                 <div class="goods-img">
                     <a href="#">
@@ -162,10 +211,68 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </table>
                 </div>
                 <div class="price-button">
-                    <a class="buy">立即购买</a>
-                    <a class="hd"></a>
+                    <a class="buy">立即秒杀</a>
+                    <a class="hd">
+                        <span class="name">绿速康</span>
+                        <span class="look">查看更多优惠>></span>
+                        <i class="hd-arrow"></i>
+                    </a>
                 </div>
             </div>
+            <div class="goods">
+                <div class="goods-img">
+                    <a href="#">
+                        <img src="促销产品/16/1.jpg">
+                    </a>
+                </div>
+                <div class="title">
+                    <div class="title-link">
+                        <a href="#">双11秒杀  特价火龙果</a>
+                    </div>
+                </div>
+                <div class="goods-price">
+                    <table class="price-list">
+                        <tbody>
+                            <tr>
+                                <td class="nowPrice">
+                                    秒杀价:
+                                </td>
+                                <td>
+                                    市场价:
+                                </td>
+                                <td>
+                                    折扣:
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="money">￥</i>
+                                    <span class="sec-price">1.00</span>
+                                </td>
+                                <td class="original">
+                                    <i class="money">￥</i>
+                                    "538.00"
+                                </td>
+                                <td class="ratio">
+                                    0.0折
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="price-button">
+                    <a class="buy">立即秒杀</a>
+                    <a class="hd">
+                        <span class="name">绿速康</span>
+                        <span class="look">查看更多优惠>></span>
+                        <i class="hd-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="all">
+            <a href="#"><span>查看16：00-17：00全部秒杀产品>></span></a>
         </div>
     </div>
     <div style="clear:both;"></div>
@@ -189,8 +296,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<p class="footer-grid">@2017 绿速康农科服务有限公司 版权所有</a></p>
 			 	</div> 	
 			</div>
-			<script src="js/main.js"></script>
+            <script src="js/miaosha.js">
 
-
+            </script>
 </body>
 </html>

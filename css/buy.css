@@ -116,3 +116,40 @@
     height: 270px;
     width: 350px;
 }
+
+/*=============================放大镜效果===========================*/
+.huaKuai{
+    width: 100px;
+    height: 100px;
+    display: none;
+    left:0;
+    top:0;
+    background-color:#454545;
+    opacity:0.5;
+    position:absolute;
+    cursor:move;
+}
+.normal{
+    position: relative;
+}
+.fangDa{
+    width:350px;
+    height:270px;
+    display:none;
+    position:absolute;
+    right:-300px;
+    top:0;
+    overflow:hidden;
+    background-color:#454545;
+    z-index: 100;
+}
+.fangDa img{
+    width: 0px;
+    height: 0px;
+    margin-left:0;
+    margin-top:0;
+}
+.fangDaImgs{
+    height: 100%;
+    width:100%;
+}

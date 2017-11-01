@@ -2,17 +2,17 @@
 <html>
 <head>
 <title>我要发布</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> -->
 <script src="js/jquery.min.js"></script>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
 <link href="css/发布.css" rel="stylesheet" type="text/css" media="all" />	
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/checkbox_radio.css">
 <link rel="shortcut icon" href="favicon.png" >
 <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/htools.select.skin.css">
 <script src="js/jquery.htools.select.js"></script>
-
 </head>
 <body>
      <!--header-->
@@ -101,12 +101,38 @@
                 </p>
             </div>
             <div class="publish-right">
-                <p>
-                    <span><input type="radio"><label>农产品 发布</label></span>
-                    <span><input type="radio"><label>提供服务</label></span>
-                    <span><input type="radio"><label>供应二手</label></span>
-                    <span><input type="radio"><label>提供加工</label></span>
-                </p>
+                <span>
+                    <label class="radio radio-xs indent" style="float:left;">
+                    <input type="radio" name="group-radio-xs">
+                    <i class="icon-radio"></i>
+                    农产品 发布
+                </label>
+                </span>
+                <span>
+                    <label class="radio radio-xs indent" style="float:left;">
+                        <input type="radio" name="group-radio-xs">
+                        <i class="icon-radio"></i>
+                        提供服务
+                    </label>
+                </span>
+                <span>
+                    <label class="radio radio-xs indent" style="float:left;">
+                        <input type="radio" name="group-radio-xs">
+                        <i class="icon-radio"></i>
+                        供应二手
+                    </label>
+                </span>
+                <span>
+                    <label class="radio radio-xs indent" style="float:left;">
+                        <input type="radio" name="group-radio-xs">
+                        <i class="icon-radio"></i>
+                        提供加工
+                    </label>
+                </span>
+                <!-- <div class="radio">
+                        <input type="radio" id="radioBox" class="radios">
+                        <label for="radioBox" ></label>
+                </div> -->
                 <div style="clear:both"></div>
                 <p>
                     <span><input type="text" placeholder="请输入标题"><label>（2-30个字）</label></span>

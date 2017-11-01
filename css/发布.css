@@ -109,3 +109,26 @@ textarea:hover{
 .submit-button{
     padding-left: 50px;
 }
+/*======================================自定义单选框===================================*/
+/* .radio input{
+    display: none;
+}
+.radios+label{
+    width: 52px;
+    height: 22px!important;
+    border-radius: 0px;
+    border: 1px solid black;
+    margin: 0px;
+    padding-left:-20px;
+    display: -webkit-flex;
+    display:flex;
+}
+.radios:checked+label::after{
+    width: 11px;
+    height: 11px;
+    line-height: 11px;
+    text-align: center;
+    background-color:  orange;
+    content: "";
+    border-radius: 0px;
+} */

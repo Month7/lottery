@@ -173,16 +173,16 @@ figcaption {
 }
 
 figure img {
-    -webkit-transition: all 1.5s;
-    -moz-transition: all 1.5s;
-    -o-transition: all 1.5s;
-    -ms-transition: all 1.5s;
-    transition: all 1.5s;
-    -webkit-transition-delay: .5s;
-    -moz-transition-delay: .5s;
-    -o-transition-delay: .5s;
-    -ms-transition-delay: .5s;
-    transition-delay: .5s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+    /* -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    -ms-transition-delay: 0.1s;
+    transition-delay: 0.1s; */
 }
 
 figure:hover img {

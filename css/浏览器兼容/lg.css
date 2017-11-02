@@ -1,4 +1,5 @@
 .floatled{
+    display: none;
     position: fixed;
     top:490px;
     left:370px;
@@ -43,9 +44,10 @@
     border: 1px solid transparent;
     border-radius: 3px;
     color: white;
+    display: none;
 }
 
-@charset "utf-8";
+
 .market-main{
     max-width: 1070px;
     margin: 20px auto;

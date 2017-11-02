@@ -5,6 +5,7 @@
     font-size: 12px;
     font-family: Arial;
     padding: 3px;
+    display: none;
 }
 .floatled li{
     list-style-type: none;
@@ -42,10 +43,10 @@
     height: 150px;
     border: 1px solid transparent;
     border-radius: 3px;
+    display: none;
     color: white;
 }
 
-@charset "utf-8";
 .market-main{
     max-width: 1070px;
     margin: 20px auto;

@@ -2212,3 +2212,17 @@ figcaption a:hover {
     margin-right: 4px;
     margin-left: 4px;
 }
+
+.header-miaosha{
+	width: 100%;
+	height: 120px;
+	position: fixed;
+	top:0;
+	z-index: 999;
+	display: none;
+	background-image: url(../site/首页促销背景.png);
+	background-size: 100%;
+}
+#miaosha-off{
+	color: black!important;
+}

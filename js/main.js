@@ -195,21 +195,30 @@ $productItem.mouseleave(function(){
     removeBorder(vid);
 })
 /*===================================浮动导航栏=================================*/
+var showFlag=1;
+$("#miaosha-off").click(function(event){
+    $miaosha.hide();
+    showFlag=0;
+    event.stopPropagation();
+    event.preventDefault();
+});
     var $publish=$("button.publish");
     var $floatled= $("div.floatled");
+    var $miaosha=$("#head-miaosha");
     var $htmlBody=$("html,body");
     var $ID1=$("#1");
     var $ID2=$("#2");
     var $ID3=$("#3");
     var $ID4=$("#4");
     var $ID5=$("#5");
-    $floatled.hide();
-    $publish.hide();
     var isclick=false;
     $(window).scroll(function(){
         if(!isclick){
         var _top=$(window).scrollTop();
         if(_top>800&&_top<3700){
+            if(showFlag){
+                $miaosha.fadeIn(500);
+            }
             $floatled.show();
             $publish.show();
             if(_top>800&&_top<1400){
@@ -248,7 +257,9 @@ $productItem.mouseleave(function(){
             }
         }
         else{
+            $miaosha.hide();
             $floatled.hide();
+            $publish.hide();
         }
     }
     });

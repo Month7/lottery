@@ -2,7 +2,6 @@
 
 --*/
 body{
-	background:fff;
 	font-family: 'Exo', sans-serif;
 }
 body a{
@@ -522,6 +521,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .btn-1c:hover,
 .btn-1c:active {
 	color: #fff;
+	z-index: 99;
 }
 .btn-1c:hover:after,
 .btn-1c:active:after {
@@ -599,6 +599,12 @@ span.corn-in{
 .banner-in h6 span {
 	color: #ff9900;
 }
+.banner{
+	width: 70%;
+	margin: auto;
+	background-color: #fff;
+}
+
 .top-about h5{
 	font-size:3em;
 	color:#000;
@@ -2225,4 +2231,12 @@ figcaption a:hover {
 }
 #miaosha-off{
 	color: black!important;
+}
+.img-responsive{
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.img-responsive:hover{
+	transform:scale(1.2);
 }
